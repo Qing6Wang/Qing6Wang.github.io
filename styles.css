@@ -26,7 +26,7 @@ nav a:hover, nav a[aria-current] { color: var(--link); border-bottom-color: var(
 .page { max-width: var(--width); margin: auto; }
 .profile { display: grid; grid-template-columns: 40% 1fr; gap: 46px; padding: 56px 0 60px; align-items: start; }
 .portrait { margin: 0 auto; width: 90%; max-width: 400px; }
-.portrait img { display: block; width: 100%; height: auto; object-fit: contain; object-position: center top; }
+.portrait img { display: block; width: 100%; height: auto; aspect-ratio: 8 / 9; object-fit: cover; object-position: center top; }
 h1 { font-size: clamp(36px, 4vw, 48px); line-height: 1.2; font-weight: 400; letter-spacing: -.8px; margin: 0 0 10px; color: #111; }
 .position { font-size: 23px; line-height: 1.4; margin: 0 0 8px; }
 .affiliation { font-size: 17px; line-height: 1.65; margin-bottom: 25px; }
